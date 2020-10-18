@@ -1,0 +1,26 @@
+﻿@model Trip
+
+<h1>Add Trip Destination and Date</h1>
+<form asp-action="AddTrip1" method="post">
+    <div class="form-group">
+        <label asp-for="Destination">Destination</label>
+        <input asp-for="Destination" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="AccommodationName">Accommodation</label>
+        <input asp-for="AccommodationName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="StartDate">Start Date</label>
+        <input asp-for="StartDate" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="EndDate">End Date</label>
+        <input asp-for="EndDate" class="form-control" />
+    </div>
+
+    <input type="hidden" asp-for="TripID" />
+
+    <button type="submit" class="btn btn-primary">Next</button>
+    <a asp-action="Index" class="btn btn-outline-primary">Cancel</a>
+</form>

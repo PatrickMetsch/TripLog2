@@ -1,0 +1,56 @@
+﻿body {
+    padding: 0 2rem;
+    background-color: #E9E9E9;
+}
+
+main {
+    padding: 1rem;
+    background-color: white;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.jumbotron {
+    background-color: #007BA7;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px black;
+    margin-bottom: 0;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.jumbotron h1 {
+    margin: 0;
+    font-size: 4rem;
+}
+
+.primaryLink {
+    font-weight: bold;
+    font-size: 1.125rem;
+    color: #00b4f5;
+}
+
+tbody tr {
+    border-bottom: 3px solid #A9A9A9;
+}
+
+.multiLine p {
+    margin-bottom: 0;
+}
+
+.multiLine .multiLineLabel {
+    font-weight: bold;
+}
+
+.accommodationName {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.destination {
+    color: #003e54;
+    font-size: 1.5rem;
+    font-weight: bold;
+}

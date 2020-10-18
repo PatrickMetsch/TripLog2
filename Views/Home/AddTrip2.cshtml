@@ -1,0 +1,22 @@
+﻿@model Trip
+
+<h1>Add Info for @TempData.Peek("ACCOMMODATION_NAME")</h1>
+<form asp-action="AddTrip2" method="post">
+    <div class="form-group">
+        <label asp-for="AccommodationPhone">Phone Number</label>
+        <input asp-for="AccommodationPhone" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="AccommodationEmail">Email</label>
+        <input asp-for="AccommodationEmail" class="form-control" />
+    </div>
+
+    <input type="hidden" asp-for="TripID" value="@TempData.Peek("TRIPID")"/>
+    <input type="hidden" asp-for="Destination" value="@TempData.Peek("DESTINATION")"/>
+    <input type="hidden" asp-for="StartDate" value="@TempData.Peek("STARTDATE")"/>
+    <input type="hidden" asp-for="EndDate" value="@TempData.Peek("ENDDATE")"/>
+    <input type="hidden" asp-for="AccommodationName" value="@TempData.Peek("ACCOMMODATION_NAME")"/>
+
+    <button type="submit" class="btn btn-primary">Next</button>
+    <a asp-action="Index" class="btn btn-outline-primary">Cancel</a>
+</form>
