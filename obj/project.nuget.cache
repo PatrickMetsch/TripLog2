@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FAiNE8jBDbGqwbIXbp53ukH9W4OHbEIYwCNeuBJJ7qxE2O3b6Vl9UkZhlHoh7PTN39xPIjPxKcC2MmA+nE/u3g==",
+  "dgSpecHash": "QCndAHzxkKwYRDuvynkpED851tUWYwKNEj4YCkPveODzHIDwExP5Q+dZov4I+iJ4hb012skdakXpc3Z19JwNBQ==",
   "success": true,
   "projectFilePath": "/murach/aspnet_core_mvc/TripLog/TripLog.csproj",
   "expectedPackageFiles": [
